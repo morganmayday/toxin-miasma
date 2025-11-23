@@ -2,12 +2,13 @@
 ! ┃┃┃┃┃━┫┗━┓┃┃┃┃━┫
 ! ┛ ┇┇┛ ┇━━┛┛ ┇┛ ┇
 ! miasma by xero (https://x-e.ro)
+! toxin recolor stuff by morganmayday
 ! add this to your ~/.Xresources or import this
 ! by adding: #include "path/to/miasma.xresources"
 
-*.foreground:   #c2c2b0
-*.background:   #222222
-*.cursorColor:  #5f875f
+*.foreground:   #5f7d85
+*.background:   #1c2426
+*.cursorColor:  #61bc7f
 ! black
 *.color0:       #222222
 *.color8:       #666666
