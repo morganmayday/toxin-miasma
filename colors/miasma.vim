@@ -3,6 +3,7 @@
 "     ┛ ┇ ┇ ┛ ┇ ━━┛ ┛ ┇ ┛ ┇
 " a fog descends upon your editor
 " https://github.com/xero/miasma.nvim
+" fork for morganmayday/toxin-miasma
 
 set background=dark
 hi! clear
@@ -15,11 +16,11 @@ let colors_name="miasma"
 let g:colors_name="miasma"
 
 hi Boolean guifg=#78834b guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi ColorColumn guifg=NONE guibg=#222222 guisp=NONE blend=NONE gui=NONE
+hi ColorColumn guifg=NONE guibg=#1c2426 guisp=NONE blend=NONE gui=NONE
 hi Comment guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi Constant guifg=#bb7744 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi CursorColumn guifg=NONE guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
-hi Cursor guifg=#222222 guibg=#685742 guisp=NONE blend=NONE gui=NONE
+hi Cursor guifg=#1c2426 guibg=#685742 guisp=NONE blend=NONE gui=NONE
 hi CursorLine guifg=NONE guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi CursorLineNr guifg=#78824b guibg=#1c1c1c guisp=NONE blend=NONE gui=bold
 hi Delimiter guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -40,22 +41,22 @@ hi DiagnosticUnderlineOk guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underli
 hi DiagnosticUnderlineWarn guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
 hi DiagnosticUnnecessary guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=underline
 hi DiagnosticVirtualTextError guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi DiagnosticVirtualTextHint guifg=#78824b guibg=#222222 guisp=NONE blend=NONE gui=NONE
-hi DiagnosticVirtualTextInfo guifg=#78824b guibg=#222222 guisp=NONE blend=NONE gui=NONE
-hi DiagnosticVirtualTextWarn guifg=#685742 guibg=#222222 guisp=NONE blend=NONE gui=NONE
+hi DiagnosticVirtualTextHint guifg=#78824b guibg=#1c2426 guisp=NONE blend=NONE gui=NONE
+hi DiagnosticVirtualTextInfo guifg=#78824b guibg=#1c2426 guisp=NONE blend=NONE gui=NONE
+hi DiagnosticVirtualTextWarn guifg=#685742 guibg=#1c2426 guisp=NONE blend=NONE gui=NONE
 hi DiagnosticVirtualTextWarning guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi DiagnosticWarn guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi DiagnosticWarningFloating guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi DiagnosticWarning guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi DiffAdded guifg=#5f875f guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
-hi DiffAdd guifg=#222222 guibg=#5f875f guisp=NONE blend=NONE gui=NONE
-hi DiffChange guifg=#222222 guibg=#685742 guisp=NONE blend=NONE gui=NONE
-hi DiffDelete guifg=#222222 guibg=#b36d43 guisp=NONE blend=NONE gui=bold
+hi DiffAdd guifg=#1c2426 guibg=#5f875f guisp=NONE blend=NONE gui=NONE
+hi DiffChange guifg=#1c2426 guibg=#685742 guisp=NONE blend=NONE gui=NONE
+hi DiffDelete guifg=#1c2426 guibg=#b36d43 guisp=NONE blend=NONE gui=bold
 hi DiffRemoved guifg=#b36d43 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
-hi DiffText guifg=#222222 guibg=#c9a554 guisp=NONE blend=NONE gui=bold
+hi DiffText guifg=#1c2426 guibg=#c9a554 guisp=NONE blend=NONE gui=bold
 hi Directory guifg=#78824b guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi Error guifg=#c2c2b0 guibg=#bb7744 guisp=NONE blend=NONE gui=NONE
-hi ErrorMsg guifg=#b36d43 guibg=#222222 guisp=NONE blend=NONE gui=NONE
+hi ErrorMsg guifg=#b36d43 guibg=#1c2426 guisp=NONE blend=NONE gui=NONE
 hi FloatShadow guifg=NONE guibg=#101010 guisp=NONE blend=NONE gui=NONE
 hi FloatShadowThrough guifg=NONE guibg=#151515 guisp=NONE blend=NONE gui=NONE
 hi FoldColumn guifg=#666666 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
@@ -85,10 +86,10 @@ hi IblScope guifg=#43492a guibg=NONE guisp=NONE blend=NONE gui=nocombine
 hi IblWhitespace guifg=#242d1d guibg=NONE guisp=NONE blend=NONE gui=nocombine
 hi Identifier guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi Ignore guifg=#444444 guibg=NONE guisp=NONE blend=NONE gui=underline
-hi IncSearch guifg=#222222 guibg=#bb7744 guisp=NONE blend=NONE gui=NONE
+hi IncSearch guifg=#1c2426 guibg=#bb7744 guisp=NONE blend=NONE gui=NONE
 hi Keyword guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi LazyButtonActive guifg=#222222 guibg=#78834b guisp=NONE blend=NONE gui=NONE
-hi LazyButton guifg=NONE guibg=#222222 guisp=NONE blend=NONE gui=NONE
+hi LazyButtonActive guifg=#1c2426 guibg=#78834b guisp=NONE blend=NONE gui=NONE
+hi LazyButton guifg=NONE guibg=#1c2426 guisp=NONE blend=NONE gui=NONE
 hi LazyComment guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi LazyCommit guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi LazyCommitIssue guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -96,8 +97,8 @@ hi LazyCommitScope guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi LazyCommitType guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi LazyDimmed guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi LazyDir guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi LazyH1 guifg=#78834b guibg=#222222 guisp=NONE blend=NONE gui=NONE
-hi LazyH2 guifg=#78834b guibg=#222222 guisp=NONE blend=NONE gui=NONE
+hi LazyH1 guifg=#78834b guibg=#1c2426 guisp=NONE blend=NONE gui=NONE
+hi LazyH2 guifg=#78834b guibg=#1c2426 guisp=NONE blend=NONE gui=NONE
 hi LazyLocal guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi LazyNoCond guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi LazyNormal guifg=NONE guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
@@ -283,7 +284,7 @@ hi! link xmlAttrib xmlTag
 hi! link xmlEndTag xmlTag
 hi! link xmlEqual xmlTag
 hi! link xmlString xmlTagName
-hi LspBorderBG guifg=#685742 guibg=#222222 guisp=NONE blend=NONE gui=NONE
+hi LspBorderBG guifg=#685742 guibg=#1c2426 guisp=NONE blend=NONE gui=NONE
 hi LspFloatWinNormal guifg=#d7c483 guibg=#43492a guisp=NONE blend=NONE gui=NONE
 hi LspReferenceRead guifg=#5f875f guibg=NONE guisp=#fd9720 blend=NONE gui=bold,undercurl
 hi LspReferenceText guifg=#d7c483 guibg=#43492a guisp=#fd9720 blend=NONE gui=bold,undercurl
@@ -296,7 +297,7 @@ hi MasonHeader guifg=#d7c483 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi MasonHeading guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi MasonHighlightBlockBoldSecondary guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi MasonHighlightBlockSecondary guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi MasonHighlight guifg=#78824b guibg=#222222 guisp=NONE blend=NONE gui=NONE
+hi MasonHighlight guifg=#78824b guibg=#1c2426 guisp=NONE blend=NONE gui=NONE
 hi MasonHighlightSecondary guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi MasonMuted guifg=#c9a554 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi MasonWarning guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -311,22 +312,22 @@ hi mustacheVariableUnescape guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=N
 hi netrwClassify guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=bold
 hi netrwExe guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi NonText guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=bold
-hi Normal guifg=#D7C483 guibg=#222222 guisp=NONE blend=NONE gui=NONE
+hi Normal guifg=#D7C483 guibg=#1c2426 guisp=NONE blend=NONE gui=NONE
 hi Number guifg=#78824b guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi NvimInternalError guifg=#1c1c1c guibg=#b36d43 guisp=NONE blend=NONE gui=NONE
 hi phpIdentifier guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi phpSpecialFunction guifg=#bb7744 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi Pmenu guifg=#d7c483 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi PmenuSbar guifg=NONE guibg=#666666 guisp=NONE blend=NONE gui=NONE
-hi PmenuSel guifg=#222222 guibg=#78834b guisp=NONE blend=NONE gui=NONE
+hi PmenuSel guifg=#1c2426 guibg=#78834b guisp=NONE blend=NONE gui=NONE
 hi PmenuThumb guifg=#d7c483 guibg=#d7c483 guisp=NONE blend=NONE gui=NONE
 hi Question guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=bold
-hi RedrawDebugClear guifg=#222222 guibg=#c9a554 guisp=NONE blend=NONE gui=NONE
-hi RedrawDebugComposed guifg=#222222 guibg=#78834b guisp=NONE blend=NONE gui=NONE
+hi RedrawDebugClear guifg=#1c2426 guibg=#c9a554 guisp=NONE blend=NONE gui=NONE
+hi RedrawDebugComposed guifg=#1c2426 guibg=#78834b guisp=NONE blend=NONE gui=NONE
 hi RedrawDebugNormal guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=reverse
-hi RedrawDebugRecompose guifg=#222222 guibg=#bb7744 guisp=NONE blend=NONE gui=NONE
-hi ScrollbarCursor guifg=#222222 guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi ScrollbarCursorHandle guifg=#222222 guibg=#1c1c1c guisp=NONE blend=0 gui=NONE
+hi RedrawDebugRecompose guifg=#1c2426 guibg=#bb7744 guisp=NONE blend=NONE gui=NONE
+hi ScrollbarCursor guifg=#1c2426 guibg=NONE guisp=NONE blend=NONE gui=NONE
+hi ScrollbarCursorHandle guifg=#1c2426 guibg=#1c1c1c guisp=NONE blend=0 gui=NONE
 hi ScrollbarError guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi ScrollbarErrorHandle guifg=#685742 guibg=#1c1c1c guisp=NONE blend=0 gui=NONE
 hi ScrollbarGitAdd guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -346,7 +347,7 @@ hi ScrollbarSearch guifg=#c9a554 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi ScrollbarSearchHandle guifg=#c9a554 guibg=#1c1c1c guisp=NONE blend=0 gui=NONE
 hi ScrollbarWarn guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi ScrollbarWarnHandle guifg=#b36d43 guibg=#1c1c1c guisp=NONE blend=0 gui=NONE
-hi Search guifg=#222222 guibg=#5f875f guisp=NONE blend=NONE gui=NONE
+hi Search guifg=#1c2426 guibg=#5f875f guisp=NONE blend=NONE gui=NONE
 hi shDerefSimple guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi SignColumn guifg=#666666 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi Special guifg=#bb7744 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -356,16 +357,16 @@ hi SpellCap guifg=#5f875f guibg=NONE guisp=#d7c483 blend=NONE gui=underline
 hi SpellLocal guifg=#bb7744 guibg=NONE guisp=#d7c483 blend=NONE gui=underline
 hi SpellRare guifg=#b36d43 guibg=NONE guisp=#d7c483 blend=NONE gui=underline
 hi Statement guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=bold
-hi StatusLine guifg=#d7c483 guibg=#222222 guisp=NONE blend=NONE gui=bold
-hi StatusLineNC guifg=#666666 guibg=#222222 guisp=NONE blend=NONE gui=bold
+hi StatusLine guifg=#d7c483 guibg=#1c2426 guisp=NONE blend=NONE gui=bold
+hi StatusLineNC guifg=#666666 guibg=#1c2426 guisp=NONE blend=NONE gui=bold
 hi String guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi SyntasticErrorSign guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi SyntasticWarningSign guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi TabLineFill guifg=#c9a554 guibg=#222222 guisp=NONE blend=NONE gui=NONE
+hi TabLineFill guifg=#c9a554 guibg=#1c2426 guisp=NONE blend=NONE gui=NONE
 hi TabLine guifg=#666666 guibg=#111111 guisp=NONE blend=NONE gui=NONE
 hi TabLineSel guifg=#111111 guibg=#78834b guisp=NONE blend=NONE gui=bold
 hi TabLineSelSep guifg=#78834b guibg=#1c1c1c guisp=NONE blend=NONE gui=bold
-hi TabLineSep guifg=#111111 guibg=#222222 guisp=NONE blend=NONE gui=NONE
+hi TabLineSep guifg=#111111 guibg=#1c2426 guisp=NONE blend=NONE gui=NONE
 hi TelescopeBorder guifg=#685742 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi TelescopeMultiIcon guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopeMultiSelection guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -416,14 +417,14 @@ hi Underlined guifg=#78834b guibg=NONE guisp=NONE blend=NONE gui=underline
 hi User1 guifg=#d7c483 guibg=#bb7744 guisp=NONE blend=NONE gui=NONE
 hi User2 guifg=#d7c483 guibg=#666666 guisp=NONE blend=NONE gui=NONE
 hi User3 guifg=#d7c483 guibg=#b36d43 guisp=NONE blend=NONE gui=NONE
-hi User4 guifg=#d7c483 guibg=#222222 guisp=NONE blend=NONE gui=NONE
+hi User4 guifg=#d7c483 guibg=#1c2426 guisp=NONE blend=NONE gui=NONE
 hi User5 guifg=#d7c483 guibg=#bb7744 guisp=NONE blend=NONE gui=NONE
 hi User6 guifg=#d7c483 guibg=#c9a554 guisp=NONE blend=NONE gui=NONE
 hi User7 guifg=#d7c483 guibg=#78824b guisp=NONE blend=NONE gui=NONE
 hi User8 guifg=#d7c483 guibg=#b36d43 guisp=NONE blend=NONE gui=NONE
 hi User9 guifg=#d7c483 guibg=#666666 guisp=NONE blend=NONE gui=NONE
-hi VertSplit guifg=#1c1c1c guibg=#222222 guisp=NONE blend=NONE gui=NONE
-hi Visual guifg=#222222 guibg=#78824b guisp=NONE blend=NONE gui=NONE
+hi VertSplit guifg=#1c1c1c guibg=#1c2426 guisp=NONE blend=NONE gui=NONE
+hi Visual guifg=#1c2426 guibg=#78824b guisp=NONE blend=NONE gui=NONE
 hi WarningMsg guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi WhichKeyBorder guifg=NONE guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi WhichKeyDesc guifg=#5f875f guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
